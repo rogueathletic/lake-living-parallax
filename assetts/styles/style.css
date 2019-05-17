@@ -1,0 +1,222 @@
+/* IMPORTANT, controls the placement fo the cals to axtion that float in */
+.column,
+.columns {
+    width: 100vw;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+
+.four.columns {
+    width: 30.6666666667%;
+}
+
+
+
+#adventure-container {
+    height: cover!important;
+    width: cover!important;
+    margin: -50px 0 0 -8px!important;
+}
+
+
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1;
+}
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Main content
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+h1 {
+    color: #ccc;
+    weight: 300;
+}
+
+
+.content {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 4px;
+}
+
+.content article {
+    padding: 100px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/* <---------------------------------------------------
+                    
+                HEADER ELEMENTS BELOW
+ --------------------------------------------------->*/
+.parallax-header-box {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, #4CA59B 40%, #1e443f 50%, #000 10%);
+    background: -webkit-linear-gradient(0deg, #4CA59B 0%, #4ca59b 100%);
+    background: -o-linear-gradient(0deg, #4CA59B 0%, #4ca59b 100%);
+    background: -moz-linear-gradient(0deg, #4CA59B 0%, #4ca59b 100%);
+    background-size: auto 600px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -999999999;
+}
+
+#first-parallax__layer {
+    position: absolute;
+    bottom:6px;
+    left: 0;
+    right: 0;
+}
+
+
+#first-parallax__layer2 {
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    right: 0;
+}
+#second-parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#third-parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#fourth-parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#fifth-parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#sixth-parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#seventh-parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#eigth-parallax__layer {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#bottom {
+position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+width: 100vw;
+height: 100vw;
+margin: 100vh 0 0 0;
+background-color: #131e28;
+}
+
+#lake {
+    position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    width: 100vw;
+    height: 24vw;
+    margin: 45vh 0 0 0;
+    background: linear-gradient(180deg, whitesmoke, rgb(0, 255, 242), rgb(13, 70, 75));
+    }
+
+    #sky {
+        position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        width: 100vw;
+        height: 60vh;
+
+        margin: 0vh 0 0 0;
+        background-color: #686868;
+        background: linear-gradient(360deg, whitesmoke, rgb(0, 255, 242), rgb(13, 70, 75));
+
+/* <---------------------------------------------------
+                    
+                HEADER ELEMENTS BELOW
+ --------------------------------------------------->*/
+
+.cta-cards {
+    margin-top: -100px;
+}
+
+.blog-posts .post {
+    padding: 20px 20px 0;
+    position: relative;
+}
+
+.blog-posts .card1 {
+    transform: translate(150px, 20px);
+}
+
+.blog-posts .card2 {
+    z-index: 2;
+    transform: translate(150px, 20px);
+}
+
+.blog-posts .card3 {
+    transform: translate(-150px, 20px);
+}
+
+#footer {
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+details summary::-webkit-details-marker {
+    display: none !important;
+}
+

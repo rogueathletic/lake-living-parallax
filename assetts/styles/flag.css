@@ -1,0 +1,51 @@
+.flag {
+    width:300px;
+    height:100px;
+    margin:50px;
+}
+.flag-element {
+    -webkit-animation:oscill 1s ease-in-out infinite alternate; 
+    -moz-animation:oscill 1s ease-in-out infinite alternate; 
+    -ms-animation:oscill 1s ease-in-out infinite alternate; 
+    animation:oscill 1s ease-in-out infinite alternate; 
+    background: url('../svgs/lets-ride-flag.svg') no-repeat;
+    background-size: 300px 100%;
+    position:relative;
+    margin: 20px 0 0 0;
+    height:100%;
+    width:1px;
+    display:inline-block;
+
+}
+@-webkit-keyframes oscill {
+    0% {
+        top: 10%;
+    }        
+    100% {
+        top: -10%;
+    }
+}
+@-moz-keyframes oscill {
+    0% {
+        top: 10%;
+    }        
+    100% {
+        top: -10%;
+    }
+}
+@-ms-keyframes oscill {
+    0% {
+        top: 10%;
+    }        
+    100% {
+        top: -10%;
+    }
+}
+@keyframes oscill {
+    0% {
+        top: 10%;
+    }        
+    100% {
+        top: -10%;
+    }
+}

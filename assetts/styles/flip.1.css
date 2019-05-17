@@ -1,0 +1,144 @@
+@import 'href="https://fonts.googleapis.com/css?family=Montserrat';
+
+
+* {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#name-title {
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    z-index: 999999;
+  width: 80%;
+margin: 40px 0 0 40px;
+
+  perspective: 800px;
+}
+
+span {
+  display: inline-block;
+  color: #55aeae;
+  transform-origin: 50% 70%;
+  float: left;
+  font-size: 30px;
+}
+
+
+
+#name_a {
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 20vw;
+    z-index: 999999;
+    margin: 13vw 0 0 0;
+    float: left;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) both;
+}
+
+#name_d {
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 27vw;
+    z-index: 9999991;
+    margin: 13vw 0 0 0;
+    float: left;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s ease-in-out;
+  animation-iteration-count:infinite;
+}
+
+#name_v {
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 35vw;
+    z-index: 999999;
+    margin: 13vw 0 0 0;
+    float: left;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .4s both;
+}
+
+#name_e {
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 42vw;
+    z-index: 999999;
+    margin: 13vw 0 0 0;
+    float: left;
+    animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .6s both;
+}
+
+#name_n {
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 48vw;
+    z-index: 999999;
+    margin: 13vw 0 0 0;
+    float: left;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .8s both;
+}
+
+#name_t {
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 56vw;
+    z-index: 999999;
+    margin: 13vw 0 0 0;
+    float: left;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1s both;
+ 
+}
+
+#name_u {
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 62vw;
+    z-index: 999999;
+    margin: 13vw 0 0 0;
+    float: left;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.7s both;
+}
+
+#name_r{
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 69vw;
+    z-index: 999999;
+    margin: 13vw 0 0 0;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.94s both;
+}
+
+#name_e2 {
+    position: fixed;
+    font-size: 10vw;
+    top: 0px;
+    left: 76vw;
+    z-index: 999999;
+    margin: 13vw 0 0 0;
+    float: left;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.17s both;
+}
+
+
+@keyframes flipUp {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    tranform: rotateX(0deg);
+  }
+}
+
+@keyframes flipDown {
+  to {
+    transform: rotateX(-180deg);
+  }
+}
