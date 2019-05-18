@@ -105,6 +105,7 @@ h1 {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 
 #third-parallax__layer {
@@ -112,6 +113,7 @@ h1 {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 3;
 }
 
 #fourth-parallax__layer {
@@ -166,7 +168,7 @@ background-color: #131e28;
         bottom: 0;
         left: 0;
         right: 0;
-        z-index: 0;
+        z-index: 1;
     width: 100vw;
     height: 24vw;
     margin: 45vh 0 0 0;
@@ -199,19 +201,20 @@ background-color: #131e28;
         margin: 0vh 0 0 0;
         background-color: #686868;
         background: linear-gradient(360deg, whitesmoke, rgb(0, 255, 242), rgb(13, 70, 75));
-
+    }
 /* <---------------------------------------------------
                     
                 HEADER ELEMENTS BELOW
  --------------------------------------------------->*/
 
-/* .cta-cards {
+.cta-cards {
     margin-top: -100px;
-} */
+}
 
 #copy {
     color: silver!important;
 }
+
 .blog-posts .post {
     padding: 0;
     position: relative;
@@ -244,14 +247,20 @@ details summary::-webkit-details-marker {
 
 #revolution-left {
     position: absolute!important;
-    margin: 0 0 0 0vw!important;
+    margin: 3px 0 0 -25px!important;
+    width: 200px;
     z-index: 4!important;
+}
+
+#hr1 {
+    margin: 150px 0 0 0;
 }
 
 
 #revolution-right {
     position: absolute;
-    margin: 0px 0 0 0!important;
+    width: 200px;
+    margin: 0px 0 0 174.4px!important;
     z-index: 4!important;
 }
 
