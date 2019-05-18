@@ -121,6 +121,7 @@ h1 {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 4;
 }
 
 #fifth-parallax__layer {
@@ -170,7 +171,7 @@ background-color: #131e28;
         right: 0;
         z-index: 1;
     width: 100vw;
-    height: 24vw;
+    height: 25vw;
     margin: 45vh 0 0 0;
     background: linear-gradient(180deg, whitesmoke, rgb(0, 255, 242), rgb(13, 70, 75));
     }
