@@ -9,7 +9,7 @@
 
 
 .four.columns {
-    width: 30.6666666667%;
+    width: 40.6666666667%;
 }
 
 
@@ -86,17 +86,19 @@ h1 {
 
 #first-parallax__layer {
     position: absolute;
-    bottom:6px;
+    bottom:0px;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 
 
 #first-parallax__layer2 {
     position: absolute;
-    bottom:0px;
+    bottom:-1px;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 #second-parallax__layer {
     position: absolute;
@@ -164,11 +166,27 @@ background-color: #131e28;
         bottom: 0;
         left: 0;
         right: 0;
+        z-index: 0;
     width: 100vw;
     height: 24vw;
     margin: 45vh 0 0 0;
     background: linear-gradient(180deg, whitesmoke, rgb(0, 255, 242), rgb(13, 70, 75));
     }
+
+
+    @media only screen and (max-width: 1050px) {
+        #lake {
+            bottom: 0px!important;
+            height: 33vw;
+        }
+      }
+
+      @media only screen and (max-width: 750px) {
+        #lake {
+            bottom: 0px!important;
+            height: 80vh;
+        }
+      }
 
     #sky {
         position: absolute;
@@ -177,7 +195,7 @@ background-color: #131e28;
             right: 0;
         width: 100vw;
         height: 60vh;
-
+        z-index: -1;
         margin: 0vh 0 0 0;
         background-color: #686868;
         background: linear-gradient(360deg, whitesmoke, rgb(0, 255, 242), rgb(13, 70, 75));
@@ -187,12 +205,15 @@ background-color: #131e28;
                 HEADER ELEMENTS BELOW
  --------------------------------------------------->*/
 
-.cta-cards {
+/* .cta-cards {
     margin-top: -100px;
-}
+} */
 
+#copy {
+    color: silver!important;
+}
 .blog-posts .post {
-    padding: 20px 20px 0;
+    padding: 0;
     position: relative;
 }
 
@@ -200,13 +221,14 @@ background-color: #131e28;
     transform: translate(150px, 20px);
 }
 
-.blog-posts .card2 {
+/* .blog-posts .card2 {
     z-index: 2;
     transform: translate(150px, 20px);
-}
+} */
 
 .blog-posts .card3 {
     transform: translate(-150px, 20px);
+    margin-top: -22px;
 }
 
 #footer {
@@ -220,3 +242,19 @@ details summary::-webkit-details-marker {
     display: none !important;
 }
 
+#revolution-left {
+    position: absolute!important;
+    margin: 0 0 0 0vw!important;
+    z-index: 4!important;
+}
+
+
+#revolution-right {
+    position: absolute;
+    margin: 0px 0 0 0!important;
+    z-index: 4!important;
+}
+
+#enter-btn {
+    margin: 8px 15px 8px 15px!important;
+}
